@@ -1,0 +1,118 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica"
+}
+
+/* UTILITIES */
+
+
+/* <!-- NAVBAR FIXED --> */
+.logo{
+  width: 100%;
+  vertical-align: middle;
+}
+.navbar{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-left{
+  vertical-align: middle;
+}
+.navbar-right{
+  vertical-align: middle;
+}
+.inline{
+  display: inline-block;
+}
+
+.fa-bars{
+  font-size: 24px;
+  line-height: 100%;
+  color: #005eff;
+}
+/* <!-- FINE NAVBAR FIXED --> */
+/* <!-- JUMBO + FORM --> */
+/* JUMBO */
+.jumbo{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  color: #FFF;
+  background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+
+  background-repeat: repeat;
+}
+.title_jumbo{
+  font-size: 48px;
+  font-weight: 600;
+  color: #FFF;
+  text-align: left;
+  padding: 10px;
+}
+.text_jumbo{
+  font-size: 28px;
+  text-align: left;
+  padding: 10px;
+}
+
+/* FINE JUMBO */
+/* FORM */
+.form{
+  background-color: #ffffff;
+  color: blue;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+/* FINE FORM */
+/* <!-- LOGHI AZIENDE PARTNER--> */
+.partner_logo{
+  background-color: #f3f5f9;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.logos{
+  width: 100%;
+  line-height: 100%;
+}
+
+/* <!-- FINE LOGHI AZIENDE PARTNER--> */
+/* <!-- DEPLOY AND SCALE  --> */
+
+
+/* <!-- FINE DEPLOY AND SCALE  --> */
+/* <!-- DESIGN --> */
+
+
+
+/* <!-- FINE DESIGN --> */
+/* <!-- FEATURES --> */
+
+
+
+/* <!-- FINE FEATURES --> */
+/* <!-- REGIONI NEL MONDO GRAFICO --> */
+
+
+
+/* <!-- FINE REGIONI NEL MONDO GRAFICO --> */
+/* <!-- DEVELOPMENT TEAMS --> */
+
+
+
+/* <!-- FINE DEVELOPMENT TEAMS --> */
+/* <!-- BUTTON GET STARTED  --> */
+
+
+
+/* <!-- FINE BUTTON GET STARTED  --> */
+/* FOOTER */
+
+
+
+/* FINE FOOTER */
