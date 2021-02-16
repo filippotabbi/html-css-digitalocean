@@ -31,6 +31,7 @@ body{
   font-size: 24px;
   line-height: 100%;
   color: #005eff;
+  cursor: pointer;
 }
 /* <!-- FINE NAVBAR FIXED --> */
 /* <!-- JUMBO + FORM --> */
@@ -60,14 +61,45 @@ body{
 /* FINE JUMBO */
 /* FORM */
 .form{
+  width: 90%;
   background-color: #ffffff;
-  color: blue;
+  color: black;
   margin: 0 auto;
   text-align: center;
   border-radius: 10px;
+  font-weight: 300;
+  padding: 10px;
 }
-
-
+.title-form{
+  width: 100%;
+  font-weight: 700;
+  font-size: 26px;
+  color: #4d5f82;
+  line-height: 100%;
+}
+.btn-create-account{
+  background-color: #096fff;
+  color: #ffffff;
+  padding: 10px 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+input{
+  padding: 10px;
+  border: 1px lightgrey;
+}
+.padding-10{
+  padding: 10px;
+  margin: 1px;
+}
+.font-10{
+  font-size: 12px;
+}
+.btn-default{
+  padding: 10px 50px;
+  background-color: #ffffff ;
+  box-shadow: 5px black;
+}
 /* FINE FORM */
 /* <!-- LOGHI AZIENDE PARTNER--> */
 .partner_logo{
@@ -76,19 +108,33 @@ body{
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.logos{
-  width: 100%;
-  line-height: 100%;
+.text-iceblue {
+  color: #096fff;
+  font-weight: 700;
 }
-
 /* <!-- FINE LOGHI AZIENDE PARTNER--> */
 /* <!-- DEPLOY AND SCALE  --> */
 
-
+.subtitle{
+  width: 80%;
+  margin: 0 auto;
+  font-size: 22px;
+}
+ .border-left{
+   border-left: 1px solid lightgrey;
+   padding-top: 10px;
+   font-size: 20px;
+ }
 /* <!-- FINE DEPLOY AND SCALE  --> */
 /* <!-- DESIGN --> */
+.design{
+    background-color: #f3f5f9;
+}
+.carrousel{
+  width: 70%;
+  margin: 20px auto 20px auto;
 
-
+}
 
 /* <!-- FINE DESIGN --> */
 /* <!-- FEATURES --> */
@@ -97,17 +143,37 @@ body{
 
 /* <!-- FINE FEATURES --> */
 /* <!-- REGIONI NEL MONDO GRAFICO --> */
+.regions{
+  background: url("https://prismic-io.s3.amazonaws.com/www-static/a2e2e54b-93f5-4579-9fa2-bd957fea611a_bg-map.svg")rgb(3, 27, 78);
+  color: #fff;
+}
 
 
 
 /* <!-- FINE REGIONI NEL MONDO GRAFICO --> */
 /* <!-- DEVELOPMENT TEAMS --> */
-
+.teams{
+  background-color: #f3f5f9;
+  padding: 30px;
+}
+.wrap_img{
+  width: 100%;
+  text-align: center;
+}
+.read_the_box{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #FFF;
+  text-align: center;
+}
 
 
 /* <!-- FINE DEVELOPMENT TEAMS --> */
 /* <!-- BUTTON GET STARTED  --> */
-
+.get_started{
+  background-color: #005eff;
+  color: #FFF;
+}
 
 
 /* <!-- FINE BUTTON GET STARTED  --> */
