@@ -6,6 +6,41 @@ body{
 }
 
 /* UTILITIES */
+.visibility-reverse{
+  display: block;
+}
+.visibility{
+  display: none;
+}
+.fixed-bottom{
+  position: fixed;
+  bottom: 0;
+  left: 23%;
+  margin-bottom: 50px;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: 700;
+}
+.babyshrk{
+  transform: scale(.2);
+  position: relative;
+  top: 180px;
+  left: 70px;
+}
+.fa-comment-dots{
+  color: red;
+  font-size: 30px;
+  position: relative;
+  top: 150px;
+  right: 90px;
+}
+.helper-fish{
+  width: 200px;
+  background-color: #FFFF;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+}
 .title-h2{
   text-align: center;
   font-size: 30px;
@@ -25,10 +60,14 @@ body{
   color: lightgrey;
   font-weight: 300;
 }
+.row{
+  position: relative;
+}
 .move-10-top{
   position: relative;
   top: 10px;
   }
+
 .darkblue{
 color: rgb(3, 27, 78);
 }
@@ -190,7 +229,7 @@ input.padding-10{
 /* <!-- FINE FEATURES --> */
 /* <!-- REGIONI NEL MONDO GRAFICO --> */
 .regions{
-  background-color: #005eff;
+  background-color: #004aff;
   color: #fff;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -220,10 +259,10 @@ input.padding-10{
 /* <!-- FINE DEVELOPMENT TEAMS --> */
 /* <!-- BUTTON GET STARTED  --> */
 .get_started{
-  background-color: #005eff;
+  background-color: #004aff;
   color: #FFF;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
 }
 .btn_create_account{
@@ -236,7 +275,110 @@ input.padding-10{
 
 /* <!-- FINE BUTTON GET STARTED  --> */
 /* FOOTER */
-
-
+.foot{
+  background-color: rgb(3, 27, 78);
+  color: white;
+  font-weight: 600;
+  list-style: none;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+h6.title-foot{
+  font-size: 23px;
+}
+.foot-list-item{
+  list-style: none;
+  color:
+}
+.foot-list-item>li>a{
+  color: lightgrey;
+  margin-left: -30PX;
+}
 
 /* FINE FOOTER */
+/* MEDIA QUERIES */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default for me*/
+
+/* Small devices (tablets, 768px and up) */
+@media all and (min-width: 768px ) {
+  .fixed-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 43%;
+    margin-bottom: 50px;
+    font-size: 12px;
+    padding: 5px;
+    font-weight: 700;
+  }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media all and (min-width: 992px ) {
+  .fixed-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 63%;
+    margin-bottom: 50px;
+    font-size: 12px;
+    padding: 5px;
+    font-weight: 700;
+  }
+  .visibility-reverse{
+    display: none;
+  }
+  .visibility{
+ display: block;
+  }
+  .move-btn{
+      position: relative;
+      left: 600px;
+      bottom:14px;
+      background-color: #579aff;
+      color: #ffffff;
+      border: 2px solid grey;
+      padding: 8px 25px;
+      border-radius: 2px;
+      text-align: center;
+      margin-left: 10px;
+      }
+  .navbar{
+  margin-bottom: -15px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media all and (min-width: 1200px) {
+  .fixed-bottom{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 50px;
+    font-size: 12px;
+    padding: 5px;
+    font-weight: 700;
+  }
+  .move-btn{
+      position: relative;
+      left: 760px;
+      bottom: 17px;
+      background-color: #579aff;
+      color: #ffffff;
+      padding: 8px 25px;
+      border: 2px solid grey;
+      border-radius: 4px;
+      text-align: center;
+      margin-left: 10px;
+      }
+  .visibility-reverse{
+    display: none;
+  }
+  .visibility{
+    display: block;
+  }
+  .navbar{
+    margin-bottom: -20px;
+  }
+
+}
