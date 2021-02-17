@@ -12,6 +12,9 @@ body{
 .visibility{
   display: none;
 }
+.margin-bottom{
+  margin-bottom: 20px;
+}
 .fixed-bottom{
   position: fixed;
   bottom: 0;
@@ -45,6 +48,7 @@ body{
   text-align: center;
   font-size: 30px;
   font-weight: 700;
+
 }
 .grey-title{
   color: grey;
@@ -61,6 +65,9 @@ body{
   font-weight: 300;
 }
 .row{
+  position: relative;
+}
+.relative{
   position: relative;
 }
 .move-10-top{
@@ -128,6 +135,7 @@ b{
   font-weight: 600;
   color: #FFF;
   text-align: left;
+  text-shadow: 2px 2px black;
 }
 .text_jumbo{
   font-size: 22px;
@@ -153,20 +161,21 @@ b{
 .btn-create-account{
   background-color: #579aff;
   color: #ffffff;
-  padding: 10px 25px;
   border-radius: 2px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-input.padding-10{
-  border: 1px solid grey;
+.input-crea{
+  margin-bottom: 10px;
+  padding: 10px;
 }
 .padding-10{
   padding: 10px;
   margin: 1px;
 }
 .font-10{
-  font-size: 12px;
+  font-size: 14px;
+  cursor: pointer;
 }
 .icon-google{
   transform: scale(.8);
@@ -174,8 +183,22 @@ input.padding-10{
   margin-right: 5px;
 }
 .btn-default{
-  padding: 10px 15px;
   background-color: #ffffff ;
+}
+.w-100{
+  width: 100%;
+}
+.bg-blue{
+  background-color: #579aff;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+.bg-default{
+  background-image: linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
+  color: #579aff;
+  border-radius: 4px;
+  padding: 10px 20px;
 }
 /* FINE FORM */
 /* <!-- LOGHI AZIENDE PARTNER--> */
@@ -204,25 +227,50 @@ input.padding-10{
    border-left: 1px solid lightgrey;
    padding-top: 10px;
    font-size: 20px;
+   display: block;
  }
 /* <!-- FINE DEPLOY AND SCALE  --> */
 /* <!-- DESIGN --> */
 .design{
     background-color: #f3f5f9;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
 }
+
 .carrousel{
-  width: 70%;
-  margin: 20px auto 20px auto;
+width: 100%;
+margin-top: 30px;
+margin-bottom: 30px;
 
 }
+.fa-caret-square-right,.fa-caret-square-left{
+  background-color: #fff;
+  color: #004aff;
+  position: absolute;
+  top: 100px;
 
+}
+.move-right{
+  position: relative;
+  right: 20px;
+}
+.fa-caret-square-right:hover{
+
+  transform: scale(3);
+}
+.fa-caret-square-left:hover{
+
+  transform: scale(3);
+}
+.fa-genderless:hover{
+  color: #004aff;
+  transform: scale(3);
+}
 /* <!-- FINE DESIGN --> */
 /* <!-- FEATURES --> */
 .features{
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 
@@ -233,6 +281,7 @@ input.padding-10{
   color: #fff;
   padding-top: 30px;
   padding-bottom: 30px;
+  text-shadow: 2px 2px black;
 }
 
 
@@ -263,13 +312,13 @@ input.padding-10{
   color: #FFF;
   padding-top: 50px;
   padding-bottom: 50px;
-
+  text-shadow: 2px 2px black;
 }
 .btn_create_account{
   background-color: #ffffff;
   color: #096fff;
   border-radius: 4px;
-
+  padding: 10px 10px;
 
 }
 
@@ -305,7 +354,7 @@ h6.title-foot{
   .fixed-bottom{
     position: fixed;
     bottom: 0;
-    left: 43%;
+    left: 63%;
     margin-bottom: 50px;
     font-size: 12px;
     padding: 5px;
@@ -326,26 +375,23 @@ h6.title-foot{
     font-weight: 700;
   }
   .visibility-reverse{
-    display: none;
+    display:  block;
   }
   .visibility{
- display: block;
+ display: none;
   }
-  .move-btn{
-      position: relative;
-      left: 600px;
-      bottom:14px;
-      background-color: #579aff;
-      color: #ffffff;
-      border: 2px solid grey;
-      padding: 8px 25px;
-      border-radius: 2px;
-      text-align: center;
-      margin-left: 10px;
-      }
+
   .navbar{
-  margin-bottom: -15px;
+  padding-bottom: 20px;
   }
+  .sign-up{
+    border: 2px solid #096fff;
+    padding: 9px 18px;
+    color: #096fff;
+    margin-top: -10px;
+  }
+
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -359,26 +405,29 @@ h6.title-foot{
     padding: 5px;
     font-weight: 700;
   }
-  .move-btn{
-      position: relative;
-      left: 760px;
-      bottom: 17px;
-      background-color: #579aff;
-      color: #ffffff;
-      padding: 8px 25px;
-      border: 2px solid grey;
-      border-radius: 4px;
-      text-align: center;
-      margin-left: 10px;
-      }
+
   .visibility-reverse{
     display: none;
   }
   .visibility{
     display: block;
+    font-size: 22px;
   }
-  .navbar{
-    margin-bottom: -20px;
+
+  .btn_create_account{
+    background-color: #ffffff;
+    color: #096fff;
+    border-radius: 4px;
+      font-size: 24px;
+      padding: 20px 30px;
+
+  }
+  .sign-up{
+    border: 2px solid #096fff;
+    padding: 9px 18px;
+    color: #096fff;
+    position: relative;
+    bottom: 10px;
   }
 
 }
