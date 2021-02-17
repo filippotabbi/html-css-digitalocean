@@ -6,7 +6,46 @@ body{
 }
 
 /* UTILITIES */
+.title-h2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.grey-title{
+  color: grey;
+  font-size: 24px;
+}
+.blue-title{
+  font-size: 24px;
+  color: rgb(3, 27, 78);
+  font-weight: 700;
+  padding: 5px;
+}
+.grey{
+  color: lightgrey;
+  font-weight: 300;
+}
+.move-10-top{
+  position: relative;
+  top: 10px;
+  }
+.darkblue{
+color: rgb(3, 27, 78);
+}
 
+.border-bottom{
+
+  border-bottom: 1px solid #FFF;
+}
+b{
+  font-size: 26px;
+
+}
+.bold{
+  font-weight: bold;
+  vertical-align: middle;
+
+}
 
 /* <!-- NAVBAR FIXED --> */
 .logo{
@@ -46,47 +85,42 @@ body{
   background-repeat: repeat;
 }
 .title_jumbo{
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 600;
   color: #FFF;
   text-align: left;
-  padding: 10px;
 }
 .text_jumbo{
-  font-size: 28px;
+  font-size: 22px;
   text-align: left;
-  padding: 10px;
+  padding-bottom: 10px;
 }
 
 /* FINE JUMBO */
 /* FORM */
 .form{
-  width: 90%;
   background-color: #ffffff;
   color: black;
-  margin: 0 auto;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 5px;
   font-weight: 300;
-  padding: 10px;
+  padding: 10px 10px;
 }
 .title-form{
-  width: 100%;
   font-weight: 700;
-  font-size: 26px;
-  color: #4d5f82;
+  font-size: 24px;
   line-height: 100%;
 }
 .btn-create-account{
-  background-color: #096fff;
+  background-color: #579aff;
   color: #ffffff;
-  padding: 10px 50px;
+  padding: 10px 25px;
+  border-radius: 2px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-input{
-  padding: 10px;
-  border: 1px lightgrey;
+input.padding-10{
+  border: 1px solid grey;
 }
 .padding-10{
   padding: 10px;
@@ -95,10 +129,14 @@ input{
 .font-10{
   font-size: 12px;
 }
+.icon-google{
+  transform: scale(.8);
+  text-align: left;
+  margin-right: 5px;
+}
 .btn-default{
-  padding: 10px 50px;
+  padding: 10px 15px;
   background-color: #ffffff ;
-  box-shadow: 5px black;
 }
 /* FINE FORM */
 /* <!-- LOGHI AZIENDE PARTNER--> */
@@ -114,7 +152,10 @@ input{
 }
 /* <!-- FINE LOGHI AZIENDE PARTNER--> */
 /* <!-- DEPLOY AND SCALE  --> */
-
+.deployments{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .subtitle{
   width: 80%;
   margin: 0 auto;
@@ -129,6 +170,8 @@ input{
 /* <!-- DESIGN --> */
 .design{
     background-color: #f3f5f9;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .carrousel{
   width: 70%;
@@ -138,14 +181,19 @@ input{
 
 /* <!-- FINE DESIGN --> */
 /* <!-- FEATURES --> */
-
+.features{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 
 /* <!-- FINE FEATURES --> */
 /* <!-- REGIONI NEL MONDO GRAFICO --> */
 .regions{
-  background: url("https://prismic-io.s3.amazonaws.com/www-static/a2e2e54b-93f5-4579-9fa2-bd957fea611a_bg-map.svg")rgb(3, 27, 78);
+  background-color: #005eff;
   color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 
@@ -154,7 +202,8 @@ input{
 /* <!-- DEVELOPMENT TEAMS --> */
 .teams{
   background-color: #f3f5f9;
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .wrap_img{
   width: 100%;
@@ -173,8 +222,17 @@ input{
 .get_started{
   background-color: #005eff;
   color: #FFF;
-}
+  padding-top: 30px;
+  padding-bottom: 30px;
 
+}
+.btn_create_account{
+  background-color: #ffffff;
+  color: #096fff;
+  border-radius: 4px;
+
+
+}
 
 /* <!-- FINE BUTTON GET STARTED  --> */
 /* FOOTER */
